@@ -10,3 +10,8 @@
     border-radius: 4px;
     margin: 20px 50px;
   }
+
+  .bg-gray {
+    background: rgb(166, 177, 184);
+    color: white;
+  }

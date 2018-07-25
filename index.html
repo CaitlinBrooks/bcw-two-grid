@@ -11,29 +11,34 @@
 </head>
 
 <body>
-    <div class="containter">
+    <div class="containter-fluid">
         <div class="row">
-          <div class="col">
-            <h3>Two grid trick</h3>
-            <h5>wrapper around container</h5>
+          <div class="col-sm-12 text-center">
+            <h1>Two grid tricks</h1>
+            <h3>Wrapper around .container or cards inside .col</h3>
           </div>
         </div>
-        <div class="row">
-          <div class="col-12"></div>
-          <div class="col-6"></div>
-          <div class="col-6"></div>
+        <div class="row bg-blue">
+          <div class="col-12 text-center"><h3>Wrapper <strong>around</strong> container</h3></div>
+          <div class="col-6 text-center"><h2>One</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae totam veniam accusamus sit ipsam itaque natus debitis at voluptate quas dolorem quo deleniti unde, dicta voluptas et laudantium laboriosam pariatur.</p></div>
+          <div class="col-6 text-center"><h2>Two</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus aliquid consequuntur ab adipisci soluta repudiandae hic fugit dolor. Adipisci labore voluptatem maxime in laborum, iste suscipit? Similique neque consectetur perferendis.</p></div>
         </div>
         <div class="row">
-          <div class="col-12">
-        <div class="row">
-             <div class="col-sm-4 offset-sm-2"></div>
+          <div class="col-12 text-center bg-gray"><h3>Cards <strong>inside</strong> .col</h3></div>
+      <div class="container-fluid bg-gray">
+          <div class="row">
+            <div class="col-xs-6 col-md-6">
+              <div class="card-white">
+                <!-- card content --><h3>Three</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam distinctio repellat, provident est autem cumque consequuntur voluptas minus cupiditate? Ipsa omnis nostrum totam optio? Illum blanditiis incidunt sapiente distinctio soluta!</p>
+              </div>
             </div>
-            <div class="row">
-              <div class="col-sm-4 offset-sm-2"></div>
+            <div class="col-xs-6 col-md-6">
+              <div class="card-white">
+                <!-- card content --><h3>Four</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veniam repellendus laudantium asperiores, vero fuga fugit aperiam officia! Nam veniam consequuntur omnis sunt natus beatae dicta, consectetur voluptate corrupti sapiente!</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
   
 </body>
